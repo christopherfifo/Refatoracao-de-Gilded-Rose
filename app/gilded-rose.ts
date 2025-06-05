@@ -27,7 +27,7 @@ export class GildedRose {
           this.updateAgedBrie(item);
           break;
 
-        case item.name.startsWith('Backstage passes'):
+        case item.name === 'Backstage passes to a TAFKAL80ETC concert':
           this.updateBackstagePass(item);
           break;
 
